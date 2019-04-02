@@ -1,0 +1,72 @@
+body {
+    margin: 40px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: black;
+    background-image: url('../images/grid.png');
+  }
+
+  nh {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500
+  }
+  
+  
+  h1 {
+    margin: 0;
+    font-size: 25px;
+    text-transform: lowercase;
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  section h1 {
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: rgb(0, 119, 255);
+  }
+  
+  section h3 {
+    color: rgb(32, 124, 178);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+  }
+  
+  ul, dl, h3 {
+    margin-left: 60px;
+    padding-left: 0;
+    list-style: none;
+    line-height: 1.6em;
+  }
+  
+  ul, dl {
+    margin-bottom: 40px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  dd {
+    font-style: italic;
+    color: black;
+    padding-left: 18px;
+  }
+  
+  time {
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: darkblue;
+  }
+
+  p {font-family: 'Quicksand', sans-serif;
+     font-size: 15px;}
