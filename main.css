@@ -1,0 +1,134 @@
+
+
+body {margin:0;}
+
+div.gallery {
+    border: 0px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 0px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  .container {
+    position: relative;
+    width: 25%;
+  }
+  
+  .image {
+    display: block;
+    padding: 0 6px;
+    padding-bottom: 0 6px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(158, 40, 40);
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+  }
+
+  h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+  }
+
+  h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+  }
+
+  .floatleft {
+    float: left;
+    padding-left: 2in;
+}
+
+.floatright {
+    float: right;
+    padding-right: 2in;
+    padding-left: 1in;
+}
+
+.floatcenter {
+  float: center;
+  padding-right: 1in;
+  padding-left: 4in;
+}
+
+
+
+
+  
